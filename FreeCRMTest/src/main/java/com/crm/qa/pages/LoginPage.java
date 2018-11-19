@@ -26,7 +26,8 @@ public class LoginPage extends TestBase {
 	
 	//Initializing the page Objects
 	public LoginPage(){
-		PageFactory.initElements(driver, this); //Instead of this we can also use LoginPage.class
+		PageFactory.initElements(driver, this); 
+		this.driver = driver;//Instead of this we can also use LoginPage.class
     }
 	
 	//Actions
